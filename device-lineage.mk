@@ -42,7 +42,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libGralloc4Wrapper \
     libcamera2ndk_vendor \
-    pixel-power-ext-V1-ndk.vendor
+    pixel-power-ext-V1-ndk.vendor \
+    android.hardware.graphics.common-V4-ndk.vendor
 
 # Codec2
 PRODUCT_PACKAGES += \
