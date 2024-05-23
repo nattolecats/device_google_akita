@@ -33,13 +33,5 @@ write_headers
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
 write_makefiles "${MY_DIR}/proprietary-files-vendor.txt" true
 
-append_firmware_calls_to_makefiles "${MY_DIR}/proprietary-firmware.txt"
-
-bash "${ANDROID_ROOT}"/lineage/scripts/pixel/prepare-firmware-makefiles.sh "${DEVICE}" "${ANDROIDMK}" "${BOARDMK}"
-
-write_rro_package "CarrierConfigOverlay" "com.android.carrierconfig" product
-write_single_product_copy_files "product/etc/apns-conf.xml"
-write_single_product_packages "CarrierConfigOverlay"
-
 # Finish
 write_footers
