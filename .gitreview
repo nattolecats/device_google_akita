@@ -1,5 +1,5 @@
 [gerrit]
-host=review.calyxos.org
+host=review.lineageos.org
 port=29418
 project=CalyxOS/device_google_akita
 defaultbranch=android14

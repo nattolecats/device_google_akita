@@ -1,3 +1,3 @@
-include device/google/akita/BoardConfig-calyx.mk
+include device/google/akita/BoardConfigLineage.mk
 
 include vendor/google/akita/BoardConfigVendor.mk

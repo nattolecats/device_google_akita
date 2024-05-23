@@ -1,4 +1,4 @@
-DEVICE_PACKAGE_OVERLAYS += device/google/akita/overlay-calyx
+DEVICE_PACKAGE_OVERLAYS += device/google/akita/overlay-lineage
 
 # Display
 PRODUCT_COPY_FILES += \

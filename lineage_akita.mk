@@ -1,14 +1,14 @@
 # Inherit some common stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/calyx/config/common_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/google/zuma/calyx_common.mk)
-$(call inherit-product, device/google/akita/akita/device-calyx.mk)
+$(call inherit-product, device/google/zuma/lineage_common.mk)
+$(call inherit-product, device/google/akita/akita/device-lineage.mk)
 $(call inherit-product, device/google/akita/aosp_akita.mk)
 
-## Device identifier. This must come after all inclusions
-PRODUCT_NAME := calyx_akita
+# Device identifier. This must come after all inclusions
+PRODUCT_NAME := lineage_akita
 PRODUCT_MODEL := Pixel 8a
 PRODUCT_BRAND := google
 
